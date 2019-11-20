@@ -111,5 +111,5 @@ src/ # 개발 디렉토리
 
 ## 버전 히스토리
 
-- `v1.0.1` - live-server + pacel로 개발/빌드 환경 구성
-- `v1.0.0` - parcel로 개발/빌드 환경 구성
+- [v1.0.1](https://github.com/yamoo9/FEML__learningKit/archive/v1.0.1.zip) - live-server + pacel로 개발/빌드 환경 구성
+- v1.0.0 - parcel로 개발/빌드 환경 구성
