@@ -1,7 +1,7 @@
 {
-  "name": "feml-project-kit",
-  "version": "1.0.0",
-  "description": "Front-End Masters League 프로젝트 킷",
+  "name": "feml-learning-kit",
+  "version": "1.0.1",
+  "description": "Front-End Masters League 러닝 킷",
   "scripts": {
     "start": "npm run clean && npm run dev",
     "clean": "rm -rf ./.cache ./dist ./src/css",
@@ -14,7 +14,8 @@
     "stylus",
     "postcss",
     "gsap",
-    "flexibility"
+    "flexibility",
+    "live-server"
   ],
   "author": "yamoo9 <yamoo9@naver.com>",
   "license": "MIT",
@@ -25,7 +26,6 @@
     "live-server": "^1.2.1",
     "node-cmd": "^3.0.0",
     "parcel-bundler": "^1.12.4",
-    "path": "^0.12.7",
     "postcss-modules": "^1.4.1",
     "stylus": "^0.54.7"
   },
