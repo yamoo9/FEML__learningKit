@@ -1,10 +1,10 @@
 {
   "name": "feml-learning-kit",
   "version": "1.0.1",
-  "description": "Front-End Masters League 러닝 킷",
+  "description": "Front-End Masters League 러닝 킷(LearningKit)",
   "scripts": {
     "start": "npm run clean && npm run dev",
-    "clean": "rm -rf ./.cache ./dist ./src/css",
+    "clean": "shx rm -rf .cache dist src/css",
     "dev": "node server.js",
     "build": "npm run clean && NODE_ENV=production node config/parcel.build.js"
   },
@@ -27,6 +27,7 @@
     "node-cmd": "^3.0.0",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^1.4.1",
+    "shx": "^0.3.2",
     "stylus": "^0.54.7"
   },
   "dependencies": {
